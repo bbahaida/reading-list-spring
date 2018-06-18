@@ -29,5 +29,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-security')
 	runtime('com.h2database:h2')
+	compileOnly ("org.springframework.boot:spring-boot-configuration-processor")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
+compileJava.dependsOn(processResources)

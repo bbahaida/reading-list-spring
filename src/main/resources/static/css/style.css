@@ -12,3 +12,15 @@ body {
 label {
     font-weight: bold;
 }
+.errorPage {
+    text-align: center;
+}
+.oops{
+    font-size: 10em;
+}
+
+.errorPage img{
+    width: 30%;
+    height: 10%;
+}
+

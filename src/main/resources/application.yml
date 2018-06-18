@@ -1,3 +1,14 @@
 spring:
   thymeleaf:
     cache: false
+#server:
+#  port: 8443
+#  ssl:
+#    key-store: classpath:mykeys.jks
+#    key-store-password: pqsszord
+#    key-password: pqsszord
+#    key-alias: selfsigned-ssl
+#    key-store-type: JKS
+
+reading:
+  app-name: Reading List
